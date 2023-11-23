@@ -46,6 +46,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .header-top {
   margin-bottom: 79px;
@@ -171,6 +172,7 @@ body {
   margin-bottom: 50px;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
           clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  overflow: hidden;
 }
 .free-container {
   margin: 0 auto;
@@ -248,6 +250,7 @@ body {
 
 .features {
   margin-top: 45px;
+  overflow: hidden;
 }
 .features-container {
   color: #343434;
@@ -330,6 +333,7 @@ body {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
           clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  overflow: hidden;
 }
 .choose-img {
   -webkit-box-align: center;
@@ -418,6 +422,7 @@ body {
 .screenshots {
   margin-top: 99px;
   margin-bottom: 85px;
+  overflow: hidden;
 }
 .screenshots-container {
   max-width: 1195px;
@@ -500,6 +505,7 @@ body {
   background-repeat: no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
           clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  overflow: hidden;
 }
 .showcase-container {
   padding-top: 135px;
@@ -515,6 +521,8 @@ body {
 }
 .showcase-video {
   background-color: #000000;
+  background-image: url("../image/video.png");
+  background-size: cover;
   height: 440px;
   margin-top: 90px;
   position: relative;
@@ -734,6 +742,7 @@ body {
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
           clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  overflow: hidden;
 }
 .support-container {
   padding-top: 155px;
@@ -938,6 +947,7 @@ body {
 
 .footer {
   margin-top: 45px;
+  overflow: hidden;
 }
 .footer-container {
   display: -webkit-box;

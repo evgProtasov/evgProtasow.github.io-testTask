@@ -38,6 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 
     &-top {
         margin-bottom: 79px;
@@ -165,6 +166,7 @@ body {
     padding-bottom: 205px;
     margin-bottom: 50px;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    overflow: hidden;
 
     &-container {
                 
@@ -244,6 +246,7 @@ body {
 .features {
 
     margin-top: 45px;
+    overflow: hidden;
     
 
     &-container {
@@ -334,6 +337,7 @@ body {
     height: 1119px;
     position: relative;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    overflow: hidden;
     
 
     &-img {
@@ -447,6 +451,7 @@ body {
 .screenshots {
     margin-top: 99px;
     margin-bottom: 85px;
+    overflow: hidden;
 
     &-container {
         max-width: 1195px;
@@ -518,6 +523,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    overflow: hidden;
 
     &-container {
         
@@ -536,6 +542,8 @@ body {
 
     &-video {
         background-color: #000000;
+        background-image: url("../image/video.png");
+        background-size: cover;
         height: 440px;
         margin-top: 90px;
         position: relative;
@@ -544,15 +552,11 @@ body {
         align-items: center;
 
         & i {
-            font-size: 66px;
-            // width: 53px;
-            // height: 53px;
+            font-size: 66px;          
         }
 
         & img {
             position: absolute;
-            // top: 0;
-            // left: 0;
         }
     }
 }
@@ -732,6 +736,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    overflow: hidden;
     
 
     &-container {
@@ -931,6 +936,7 @@ body {
 
 .footer {
     margin-top: 45px;
+    overflow: hidden;
 
     &-container {
         display: flex;
